@@ -5,7 +5,7 @@
       "label": "Run SQL file",
       "type": "shell",
       "command": "npm",
-      "args": ["run", "sql", "${relativeFile}"],
+      "args": ["run", "sql", ".\\${relativeFile}"],
       "group": {
         "kind": "build",
         "isDefault": true
