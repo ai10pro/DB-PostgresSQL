@@ -4,4 +4,4 @@ SELECT
     level,
     created_on
 FROM
-    s_characters;   
+    s_characters;

@@ -1,7 +1,6 @@
 SELECT
-    id,
-    last_login_at,
-    created_on,
-    id
+    id AS "出席番号",
+    name AS "氏名",
+    age AS "年齢"
 FROM
-    s_characters;
+    s_users;
