@@ -1,12 +1,10 @@
 SELECT
     id,
     name,
-    level
+    level,
+    guild,
+    last_login_at
 FROM
     s_characters
 ORDER BY
-    level DESC
-LIMIT -- ◀ ここに注目
-    5
-OFFSET
-    10;
+    last_login_at DESC;
