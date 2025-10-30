@@ -1,10 +1,15 @@
+START TRANSACTION;
+
+INSERT INTO
+    s_users (name, id)
+VALUES
+    ('Carol', 3),
+    ('Dave', 4),
+    ('Ellen', 5);
+
 SELECT
-    id,
-    name,
-    level,
-    guild,
-    last_login_at
+    *
 FROM
-    s_characters
-ORDER BY
-    last_login_at DESC;
+    s_users;
+
+ROLLBACK;
