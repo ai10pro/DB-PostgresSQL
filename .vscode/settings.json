@@ -27,5 +27,8 @@
   "SQL-Formatter-VSCode.expressionWidth": 80,
   "SQL-Formatter-VSCode.functionCase": "upper",
   "SQL-Formatter-VSCode.logicalOperatorNewline": "after",
-  "SQL-Formatter-VSCode.dialect": "postgresql"
+  "SQL-Formatter-VSCode.dialect": "postgresql",
+
+  // gemini code assist OFF
+  "geminicodeassist.enable": false
 }
