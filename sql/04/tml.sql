@@ -1,15 +1,6 @@
-START TRANSACTION;
-
-INSERT INTO
-    s_users (name, id)
-VALUES
-    ('Carol', 3),
-    ('Dave', 4),
-    ('Ellen', 5);
-
 SELECT
     *
 FROM
-    s_users;
-
-ROLLBACK;
+    s_characters
+WHERE
+    last_login_at = '2025-10-03 11:42';

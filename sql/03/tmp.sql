@@ -60,3 +60,7 @@ SELECT
 --     ) AS login_second
 -- FROM
 --     s_characters;
+SELECT DISTINCT
+    job
+FROM
+    s_characters;
