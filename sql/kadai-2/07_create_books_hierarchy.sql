@@ -13,7 +13,7 @@ INSERT INTO
     books_hierarchy (id, title, parent_book_id)
 VALUES
     (1, '吾輩は猫である', NULL),
-    (2, '坊っちゃん', 1),
+    (2, '坊っちゃん', 3),
     (3, '人間失格', 2);
 
 SELECT
