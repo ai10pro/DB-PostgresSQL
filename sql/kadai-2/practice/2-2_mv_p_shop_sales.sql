@@ -24,5 +24,5 @@ ORDER BY
     DATE (sl.sold_at),
     s.shop_id;
 
--- 高速化のためにインデックスを貼る（マテリアライズドビューならではの特徴）
-CREATE INDEX idx_mv_daily_sales_date ON mv_p_daily_shop_sales (sale_date);
+-- -- 高速化のためにインデックスを貼る（マテリアライズドビューならではの特徴）
+-- CREATE INDEX idx_mv_daily_sales_date ON mv_p_daily_shop_sales (sale_date);
